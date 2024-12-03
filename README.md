@@ -13,3 +13,5 @@ COMPONENTS STILL IN WORK:
 
 Note 1: 9:31 pm
     I've written the rules and things needed for the project, as well as the overall systems needed.
+Note 2: 10:44 pm
+    Ive put in a string list of the days of the week, I'll be using this later when i actually build the full system. The other things ive implemented are a system to select the day of the week but theres nothing but it just telling you a output of "you selected this day." From there i will try and add more of the project later. I also added the first Mystery of the Rosary as well so that way it can tell you everything there is to say.
