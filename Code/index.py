@@ -1,5 +1,2 @@
-#Schedule
-rosary_schedule = {
-    "day": ["monday", "tuesday", "wednesday"]
-}
-print(rosary_schedule["day"])
+#made by collin calloway
+days = ["Monday", "Tuesday", "Wednesday", "thursday", "Friday"]
