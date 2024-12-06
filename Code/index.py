@@ -10,17 +10,16 @@ sorrow_mysteries = ["First Sorrowful Mystery – Agony of Jesus in the Garden: '
 glorious_mysteries = ["First Glorious Mystery – The Resurrection of Jesus: 'I Desire a Strong Faith Christ’s glorious triumph when, on the third day after His death, He arose from the tomb and for forty days appeared to His Blessed Mother and to His disciples.' John 20:1","Second Glorious Mystery – The Ascension of Jesus: 'I Desire the Virtue of Hope The Ascension of Jesus Christ, forty days after His glorious Resurrection, in the presence of Mary and His disciples.' Luke 24:36","Third Glorious Mystery – The Descent of the Holy Spirit at Pentecost: I Desire Zeal for the Glory of God The descent of the Holy Spirit upon Mary and the Apostles, under the form of tongues of fire, in fulfillment of Christ’s promise.' Acts 2:1","Fourth Glorious Mystery – The Assumption of Mary into Heaven: I Desire the Grace of a Holy Death The glorious Assumption of Mary into Heaven, when she was united with her Divine Son.' ","Fifth Glorious Mystery – The Coronation of Mary as Queen of Heaven and Earth: 'I Desire a Greater Love for the Blessed Virgin Mary The glorious crowning of Mary as Queen of Heaven by her Divine Son, to the great joy of all the Saints.' "]
 
 def monday():
-    def day_instruction_input(prayer_instruction_input):
-        prayer_instruction_input = prayer_instruction_input.lower()
-        if prayer_instruction_input == "no":
-            print("this is no")
-        #function here.
-        elif prayer_instruction_input == "yes":
-            print("success!")
-            #function here.
-        else:
-            instruction_input = input("do you want instructions on praying?").strip()
-        day_instruction_input(instruction_input)
+    #askes the question and is where you input
+    instruction_input = input("do you want instructions on praying?").strip().lower()
+    #checks responses
+    if instruction_input == 'yes':
+        print("you selected yes")
+    elif instruction_input == 'no':
+        print("you selected no")
+    else:
+        print("please answer with a yes or no.")
+
 
 
 def run_command(day):
